@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&family=Permanent+Marker&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
 
+
 *{
     font-family: 'Poppins', sans-serif;
     padding: 0;
@@ -173,5 +174,58 @@ nav ul li.btn:hover a{
         display: none;
     }
 }
+
+@media (max-width:355px){
+    header{
+        display: block;
+        transition: 0.4s;
+        
+    }
+    header ul li.btn a{
+        margin-left: 0;   
+        transition: 0.4s;
+
+    }
+    nav{
+        margin-top: 10px;
+        transition: 0.4s;
+    }
+    .content{
+        width: 100%;
+    }
+    .content{
+        width: 100%;
+    }
+
+   
+    .content .main-text p{
+        font-size: 15px;
+        transition: 0.4s;
+
+    }
+    .content .main-text h1{
+        font-size: 34px;
+        transition: 0.4s;
+    }
+
+}
+
+@media (max-width:280px){
+    .content{
+        width: 100%;
+    }
+  
+   
+    .content .main-text p{
+        font-size: 13px;
+        transition: 0.4s;
+
+    }
+    .content .main-text h1{
+        font-size: 26px;
+        transition: 0.4s;
+    }
+}
+
 
 
